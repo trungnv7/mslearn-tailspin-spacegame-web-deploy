@@ -84,6 +84,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Trung Test App Service Deploy: website'
             inputs:
-              azureSubscription: 'Azure Pass - Sponsorship'
+              azureSubscription: 'trung-test-112'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
